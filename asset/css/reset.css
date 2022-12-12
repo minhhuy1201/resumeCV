@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin : 0;
+    padding: 0;
+    font   : inherit;
+}
+
+body {
+    line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    height    : auto;
+    display   : block;
+    max-width : 100%;
+    object-fit: cover;
+}
+
+input,
+button,
+textarea,
+select {
+    outline: none;
+}
+
+/* Break words when it enought space */
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-decoration: none;
+    color: inherit;
+    font: inherit;
+}
+
+ul,
+ol {
+    padding   : 0;
+    list-style: none;
+}
